@@ -5,6 +5,13 @@ const cors = require('cors');
 // Working solution -> Replace URL with your FrontEnd url
 // app.use(cors({ origin: 'http://127.0.0.1:5500' })); // allow specific domain
 // app.use(cors({ origin: '*' })); // allow all domains
+// app.use(
+//   cors({
+//     origin: '*',
+//     methods: ['GET', 'POST', 'PUT', 'DELETE'],
+//     allowedHeaders: ['Content-Type'],
+//   })
+// ); // allow limited HTTP requests
 
 // Server code
 
